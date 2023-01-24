@@ -21,7 +21,7 @@ function App() {
     fetch(url, {
       method: "GET",
       headers: {
-        Authorization: "Bearer "
+        Authorization: "Bearer OATH TOKEN"
       }
     })
     .then((response) => response.json())
