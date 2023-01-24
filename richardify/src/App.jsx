@@ -21,7 +21,7 @@ function App() {
     fetch(url, {
       method: "GET",
       headers: {
-        Authorization: "Bearer OATH TOKEN"
+        Authorization: "Bearer BQC2E_XMEsqtnYt4qatWLMb-e3QbHFAar8CYn-nkhVc6dIxFdjBG7IaOFisR8nxQk--N79OEK0M2Qp_XdghjB4dpxwhHESQBznALya60KVeXSkhCS-gwvTUudrFnnklAKl-RmlmrCDJooxlktL3FzWtzrfJpQODchqWbJZtD0OV-A0prka6D"
       }
     })
     .then((response) => response.json())
